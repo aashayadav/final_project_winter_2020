@@ -208,9 +208,22 @@ join2 %>%
   labs(title = "Self Regulation Score Changes from 2013 to 2018",
        subtitle = "XXX color denotes increase, YYY color denotes decrease",
        x = NULL,
-       y = "Score (on 1-5 scale)")
+       y = "Score (on 1-5 scale)") 
+  
+  # theme(axis.text.y = element_text(size= 7)) (Asha added this)
 
-# 
+
 
 ```
 
+Asha's comments
+Areas of strength
+1. Generously commented in the script. Very helpful to understand flow of her code.
+2. Use of various functions and different plots to present the visualization in different ways.
+3. 
+One thing I learnt
+1. learnt about library(maps) and how helpful commenting can be to share your work.
+Area of improvement
+Y-axis labels on the last plot overlap. Font size of y-axis labels be manipulated using following:
+
+theme(axis.text.y = element_text(size= 7))
